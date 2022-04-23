@@ -1,0 +1,12 @@
+import Vue from 'vue';
+import Router from 'vue-router';
+import routes from './router';
+
+Vue.use(Router);
+
+const router = new Router({
+  // 4. 内部提供了 history 模式的实现。为了简单起见，我们在这里使用 hash 模式。
+  mode: 'history',
+  routes, // `routes: routes` 的缩写
+});
+export default router;
