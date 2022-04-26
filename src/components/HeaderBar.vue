@@ -49,7 +49,7 @@ export default {
 .header-bar {
   height: 70px;
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dcdfe6;
   //   background-color: #4b7be5;
   .header-content {
     height: 100%;
@@ -86,6 +86,7 @@ export default {
         width: 200px;
         position: absolute;
         top: 70px;
+        z-index: 99999;
         left: 0;
         background: #fff;
         border-radius: 0 0 10px 10px;
