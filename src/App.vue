@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import HeaderBar from "./components/HeaderBar";
+import HeaderBar from "./page/HeaderBar";
 
 export default {
   name: "app",

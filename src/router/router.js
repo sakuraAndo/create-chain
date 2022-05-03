@@ -1,6 +1,6 @@
-import ChainHome from '@/components/ChainHome.vue';
-import CollectionPage from '@/components/collection/CollectionPage.vue';
-import CollectionRecommend from '@/components/collection/CollectionRecommend.vue';
+import ChainHome from '@/page/ChainHome.vue';
+import CollectionPage from '@/page/collection/CollectionPage.vue';
+import CollectionRecommend from '@/page/collection/CollectionRecommend.vue';
 
 export default [
   {
