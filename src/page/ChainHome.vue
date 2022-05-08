@@ -18,7 +18,7 @@
       >
         <span slot="label"><i class="el-icon-s-home"></i> 首页推荐</span>
         <div class="home-img">
-          <content-card v-for="item in 20" :key="item"></content-card>
+          <content-card v-for="item in 20" :key="item" :num="item"></content-card>
         </div>
       </el-tab-pane>
       <el-tab-pane
